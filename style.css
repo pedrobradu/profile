@@ -1,7 +1,7 @@
 body {
-    background-color: #231b09;
+    background-color: #1f1f1f;
     font-family: 'Roboto Mono', monospace;
-    color: #D58936;
+    color: #fff;
     font-size: 15px ;
     line-height: 1.6;
     font-weight: 300;
@@ -47,27 +47,21 @@ img {
     }
 }
 
-.card1 {
-    background: #fff;
-    border: ;
+.card1, .card2 {
+    box-shadow: 10px 10px 30px #393939;
+    background: #000;
     border-radius: 20px ;  
-    box-shadow: 10px 10px 30px #D58936;
-    padding: 5px 50px;
-}
-
-.card2 {
-    background: #fff;
-    border: ;
-    border-radius: 20px ;  
-    box-shadow: 10px 10px 30px #D58936;
+    margin: 30px;
+    padding: 10px;
 }
 
 h1, h2 {
-    color: #D58936;
+    color: #fff;
     font-family: 'Inconsolata', monospace;
     font-size: 50px ;
     line-height: 1.6;
     font-weight: 900;
+    margin: 20px;
 }
 
 /* img {
@@ -79,23 +73,23 @@ h2 {
     font-size: 30px ;
     line-height: 1;
     font-weight: 500;
-    margin: 20px;
 }
 
 
 button {
     color: #fff;
-    background-color: #D58936;
+    background-color: #2f2f2f;
     width: 100px;
     height: 50px;
     margin: 0px 10px 10px 10px;
     border-radius: 10px;
-    border-color: #fff;
+    border-color: #000;
+    font-family: 'Roboto Mono', monospace;
 }
 
 button:hover {
-    color: #fff;
-    background-color: #231b09
+    color: #000;
+    background-color: #fff;
 }
 
 ul {
@@ -109,10 +103,11 @@ li {
 }
 
 a {
-    color: #D58936;
+    color: #393939;
     font-size: 50px;
+    box-shadow: 10px 10px 30px #393939;
 }
 
 a:hover {
-    color: #231b09
+    color: #fff
 }
